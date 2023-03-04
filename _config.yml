@@ -12,3 +12,10 @@ theme: minima
 title: "Marija Jemuovic's blog"
 author: "Marija Jemuovic"
 description: "Blogging about .NET, Optimizely, Commerce and more"
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  About: "about"
