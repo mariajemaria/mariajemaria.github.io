@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: https://github.com/mariajemaria/mariajemaria.github.io
+source: "https://github.com/mariajemaria/mariajemaria.github.io"
 incremental: false
 highlighter: rouge
 gist:
@@ -9,6 +9,6 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: minima
-title: Marija Jemuovic's blog
-author: Marija Jemuovic
-description: Blogging about .NET, Optimizely, Commerce and more
+title: "Marija Jemuovic's blog"
+author: "Marija Jemuovic"
+description: "Blogging about .NET, Optimizely, Commerce and more"
