@@ -7,4 +7,4 @@ Hey again!
 
 I got swamped with life and work and my old blog stopped meeting my needs. Hoping this to be a fresh start, welcome back!
 
-![Book logo](/mariajemaria.github.io/assets/images/hello-again.png)
+![Hello world, again!](/mariajemaria.github.io/docs/assets/images/hello-again.png)
