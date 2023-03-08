@@ -11,8 +11,8 @@ kramdown:
 theme: minima
 title: "Marija Jemuovic's blog"
 author:
-  name: "Marija Jemuovic"
-  email: "marija.jemuovic@gmail.com"
+  name: Marija Jemuovic
+  email: marija@getadigital.com
 description: "Blogging about .NET, Optimizely, Commerce and more"
 
 ###############################################
@@ -21,3 +21,8 @@ description: "Blogging about .NET, Optimizely, Commerce and more"
 
 navbar-links:
   About: "about"
+
+plugins:
+  - jekyll-seo-tag
+  
+show_excerpts: true
