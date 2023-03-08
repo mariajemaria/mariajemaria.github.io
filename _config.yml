@@ -9,11 +9,8 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: minima
-remote_theme: jekyll/minima
 title: "Marija Jemuovic's blog"
-author:
-  name: Marija Jemuovic
-  email: marija@getadigital.com
+author: "Marija Jemuovic"
 description: "Blogging about .NET, Optimizely, Commerce and more"
 
 ###############################################
