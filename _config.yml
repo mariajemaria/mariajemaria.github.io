@@ -10,7 +10,6 @@ kramdown:
   syntax_highlighter: rouge
 theme: minima
 title: "Marija Jemuovic's blog"
-author: "Marija Jemuovic"
 email: "marija.jemuovic@gmail.com"
 description: "Blogging about .NET, Optimizely, Commerce and more"
 
