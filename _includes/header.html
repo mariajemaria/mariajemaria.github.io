@@ -5,7 +5,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">    
-      <img src="/assets/logo.png" alt="Marija Jemuovic's blog"/>
+      <img src="/assets/images/logo.png" alt="Marija Jemuovic's blog" />
     </a>
 
     {%- if titles_size > 0 -%}
