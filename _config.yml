@@ -24,5 +24,3 @@ plugins:
   - jekyll-seo-tag
   
 show_excerpts: true
-
-search_enabled: true
