@@ -67,7 +67,7 @@ Instead, we figured out that we can easily inherit from IFeedRepository and impl
 
 Of course, StructureMap registry would need to be added the following line:
 
-```
+```csharp
 For<IFeedRepository>().Transient().Use<CustomFeedRepository>();
 ```
 
