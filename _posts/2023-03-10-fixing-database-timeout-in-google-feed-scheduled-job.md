@@ -40,7 +40,7 @@ D:\buildAgent2\work\9009e16da83c5b64\src\Site\Infrastructure\GoogleMerchant\Goog
 
 Instead, we figured out that we can easily inherit from IFeedRepository and implement RemoveOldVersions. There, we are passing the timeout from appSettings. The rest of the implementation is the same as in the library, so I am just copying the important bits here:
 
-```
+```csharp
     public class CustomFeedRepository : IFeedRepository
     {
         private readonly int _timeout;
