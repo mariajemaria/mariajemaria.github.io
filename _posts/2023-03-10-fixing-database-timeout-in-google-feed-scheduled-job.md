@@ -5,7 +5,7 @@ date: 2023-03-10
 
 This blogpost addresses a timeout exception when running "Google ProductFeed - Create feed" scheduled job from GoogleProductFeed nuget package.
 
-The issue is described by [itcotta] https://github.com/itcotta here: [#21] https://github.com/Geta/GoogleProductFeed/issues/21. While he fixed it by raising the number of DTU-s, for us, this was not a long-term solution. This was used on a huge catalog with several feeds that kept growing and we didn't want to endlessly upgrade the DB.
+The issue is described by [itcotta][https://github.com/itcotta] here: [#21][https://github.com/Geta/GoogleProductFeed/issues/21]. While he fixed it by raising the number of DTU-s, for us, this was not a long-term solution. This was used on a huge catalog with several feeds that kept growing and we didn't want to endlessly upgrade the DB.
 
 I am hereby copying the original error message to improve searchability for the blogpost:
 
