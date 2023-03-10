@@ -1,5 +1,5 @@
 ---
-title: "Broken TinyMCE functionality: image cannot be added through Insert/edit image"
+title: "Broken TinyMCE functionality for Optimizely CMS: image cannot be added through Insert/edit image"
 date: 2023-03-10
 ---
 
