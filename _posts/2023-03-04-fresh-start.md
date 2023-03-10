@@ -12,6 +12,6 @@ I plan to migrate and clean up my old blogposts in the weeks to come.
 ![Hello world, again!](/assets/images/hello-again.png)
 
 
-```
+```csharp
 Console.WriteLine("Hello again!");
 ```
