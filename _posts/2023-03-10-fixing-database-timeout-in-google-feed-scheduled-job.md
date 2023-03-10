@@ -20,16 +20,21 @@ System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHa
 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted) at 
 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest) at 
 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry) at 
-System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry) at System.Data.SqlClient.SqlCommand.ExecuteNonQuery() at 
-System.Data.Entity.Infrastructure.Interception.InternalDispatcher1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func3 operation, TInterceptionContext interceptionContext, Action3 executing, Action3 executed) at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext) at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary2 identifierValues, List1 generatedValues) at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update() --- End of inner exception stack trace --- at 
-System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update() at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess) at 
+System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry) at
+System.Data.SqlClient.SqlCommand.ExecuteNonQuery() at 
+System.Data.Entity.Infrastructure.Interception.InternalDispatcher1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func3 operation, TInterceptionContext interceptionContext, Action3 executing, Action3 executed) at
+System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext) at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary2 identifierValues, List1 generatedValues) at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update() --- End of inner exception stack trace --- at 
+System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update() at
+System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess) at 
 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction) at 
 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation) at 
 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction) at 
 System.Data.Entity.Internal.InternalContext.SaveChanges() --- End of inner exception stack trace --- at System.Data.Entity.Internal.InternalContext.SaveChanges() at
 Geta.GoogleProductFeed.Repositories.FeedRepository.RemoveOldVersions(Int32 numberOfGeneratedFeeds) in 
-C:\BuildAgent1\work\5931d0eced9e8a54\src\Geta.GoogleProductFeed\Repositories\FeedRepository.cs:line 42 at Geta.GoogleProductFeed.FeedHelper.GenerateAndSaveData() in 
-C:\BuildAgent1\work\5931d0eced9e8a54\src\Geta.GoogleProductFeed\FeedHelper.cs:line 59 at Site.Infrastructure.GoogleMerchant.GoogleMerchantScheduledJob.Execute() in 
+C:\BuildAgent1\work\5931d0eced9e8a54\src\Geta.GoogleProductFeed\Repositories\FeedRepository.cs:line 42 at
+Geta.GoogleProductFeed.FeedHelper.GenerateAndSaveData() in 
+C:\BuildAgent1\work\5931d0eced9e8a54\src\Geta.GoogleProductFeed\FeedHelper.cs:line 59 at
+Site.Infrastructure.GoogleMerchant.GoogleMerchantScheduledJob.Execute() in 
 D:\buildAgent2\work\9009e16da83c5b64\src\Site\Infrastructure\GoogleMerchant\GoogleMerchantScheduledJob.cs:line 27
 ```
 
