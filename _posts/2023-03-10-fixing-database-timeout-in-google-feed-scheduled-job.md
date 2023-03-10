@@ -65,4 +65,10 @@ Instead, we figured out that we can easily inherit from IFeedRepository and impl
     }
 ```
 
+Of course, StructureMap registry would need to be added the following line:
+
+```
+For<IFeedRepository>().Transient().Use<CustomFeedRepository>();
+```
+
 Please note that by the time you deploy this code to production (depending on the release cycle), the database entries might have piled up so much that you either need to extend the timeout or do the manual cleanup. After that, the code above should suffice.
