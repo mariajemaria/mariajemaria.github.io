@@ -16,6 +16,6 @@ Recently, we got a bug report from the customer suggesting that when Insert/edit
 
 ![TinyMCE insert image source empty](/assets/images/source-empty.png)
 
-While we were trying to find which TinyMCE plugin exactly was causing the error, we upgraded EPiServer.CMS.TinyMce from 2.13.4 to 2.13.8.
+While we were trying to find which TinyMCE plugin exactly was causing the error, we upgraded EPiServer.CMS.TinyMce from 2.13.4 to 2.13.8 and that alone was enough to fix the issue.
 
 I have not been able to find this on the Optimizely World, so decided to share.
