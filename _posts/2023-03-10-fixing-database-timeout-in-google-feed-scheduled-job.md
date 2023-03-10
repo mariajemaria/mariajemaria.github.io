@@ -13,8 +13,7 @@ I am hereby copying the original error message to improve searchability for the 
 
 Instead, we figured out that we can easily inherit from IFeedRepository and implement RemoveOldVersions. There, we are passing the timeout from appSettings. The rest of the implementation is the same as in the library, so I am just copying the important bits here:
 
-```
-    public class CustomFeedRepository : IFeedRepository
+```public class CustomFeedRepository : IFeedRepository
     {
         private readonly int _timeout;
         private readonly FeedApplicationDbContext _applicationDbContext;
